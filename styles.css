@@ -1,0 +1,251 @@
+.msgEnTira {
+    width: 100%;
+    padding: 8px 0;
+    background-color: #2f5d9e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#msgEnTira a {
+    align-items: center;
+}
+
+.msgEnTira svg {
+    margin: 0 .5rem;
+    min-width: 41px;
+}
+
+.paragraph {
+    color: #f1f1f1;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+.btn.btn-primary.btn-max {
+    background-color: #fff!important;
+    color: #0d0d0d;
+    font-weight: bold;
+    border-color: #fff!important;
+    vertical-align: top;
+    font-size: 12px;
+    margin: 0 .5rem;
+    padding: 4px 12px;
+    text-transform: none;
+}
+
+.msgEnTira a>div {
+    display: flex;
+    align-items: center;
+}
+
+#headerRow1 {
+    height: 52px;
+    background: #FFDD2F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 11px;
+    z-index: 100;
+  }
+
+  .mainBanner {
+    position: relative;
+  }
+  
+  .mainBanner .content-banner {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0 30px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .mainBanner .text-banner {
+    color: #000;
+    display: none;
+  }
+  
+  .mainBanner .btn-banner {
+    background: rgb(0, 108, 186);
+    color: #fff;
+    padding: 5px 20px;
+    text-align: center;
+    width: 80%;
+    font-size: 14px;
+    border-radius: 7px;
+    display: block;
+  }
+
+  .bottoms a:hover,
+    .tops a:hover {
+    text-decoration: none !important;
+    } 
+
+    .bottoms .grid-col-2 {
+        grid-gap: 10px;
+      }
+
+      .bottoms .grid-col-2 {
+        grid-gap: 30px;
+      }
+  @media only screen and (min-width: 768px) {
+    .mainBanner .content-banner {
+      width: 290px;
+      height: auto;
+      right: 0em;
+      bottom: 3em;
+    }
+  
+    .mainBanner .text-banner {
+      margin-bottom: 6px;
+      font-size: 19px;
+      display: block;
+    }
+  
+    .mainBanner .btn-banner {
+      width: 90%;
+      margin: auto;
+      padding: 8px 24px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mainBanner .content-banner {
+      width: 290px;
+      height: auto;
+      right: 3em;
+      bottom: 4.4em;
+    }
+  
+    .mainBanner .text-banner {
+      margin-bottom: 14px;
+      font-size: 26px;
+    }
+  
+    .mainBanner .btn-banner {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .mainBanner .content-banner {
+      right: 4em;
+      bottom: 5.5em;
+    }
+
+    .carruselCss .item {
+        margin: 15px 6px;
+        min-width: 215px;
+        max-width: 215px;
+    }
+  }
+
+  @media only screen and (min-width: 320px) {
+    .grid-col-sm-2-1 {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+    }
+  
+    .grid-col-sm-2-1 .grid-item:last-child {
+      grid-column: 1/3;
+    }
+  
+    .btn-banner {
+      margin: 6.75em auto;
+      padding: 5px 12px !important;
+    }
+  
+    .bottoms .grid-col-2 {
+      grid-gap: 10px;
+    }
+
+    .tendencias-de-impacto {
+        display: none;
+      }
+  
+  }
+
+  @media only screen and (min-width: 992px) {
+    #imgCoppel img {
+        max-width: 140px;
+        margin-top: 8px;
+    }
+    .grid-col-3 {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
+    }
+  
+    .grid-col-sm-2-1 .grid-item:last-child {
+      grid-column: auto;
+    }
+  
+    .carruselCss {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .carruselCss .item {
+      margin: 15px 6px;
+      min-width: 180px;
+      max-width: 180px;
+    }
+  }
+
+  .carruselCss {
+    display: flex;
+    overflow-y: auto;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.carruselCss .item {
+    margin: 15px 6px;
+    min-width: 190px;
+    max-width: 190px;
+    background-color: #e6e6e6;
+    transform: scale(1);
+    transition: all 0s;
+}
+
+.carruselCss .item:hover {
+    transform: scale(1.02);
+}
+
+.carruselCss .item p {
+    padding: 10px;
+    margin-bottom: 0px;
+    color: #000;
+}
+
+.img-carrusel {
+    margin: 0px 5px 0px 5px;
+}
+
+.grid-item {
+    background-color: #e6e6e6;
+  }
+  
+  .grid-item p {
+    padding: 10px;
+    margin-bottom: 0px;
+  }
+
+  .texto-seo a {
+    color: #016db6;
+  }
+
+  #imgCoppel {
+    max-width: 50%;
+  }
+
+  #imgCoppel img {
+    width: 130%;
+}
+
